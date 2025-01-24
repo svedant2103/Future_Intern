@@ -37,15 +37,17 @@ An additional processed dataset, `final_dataset.csv`, is generated during the pr
 ## Project Structure
 
 ---
-RealEstateHousePricePrediction/
-├── .gitignore                # Files to ignore in the Git repository
-├── LICENSE                   # Project license
-├── LinearRegressionModel.pkl # Serialized machine learning model
-├── ParisHousing.csv          # Raw dataset
-├── README.md                 # Project documentation
-├── RealEstateHousePricePredictionUsingML_Project.ipynb # Jupyter Notebook with detailed analysis
-├── final_dataset.csv         # Preprocessed dataset
-├── main.py                   # Main script for preprocessing, training, and prediction
+
+The project is organized as follows:
+
+# .gitignore: Files to ignore in the Git repository
+# LICENSE: Project license
+# LinearRegressionModel.pkl: Serialized machine learning model
+# ParisHousing.csv: Raw dataset
+# README.md: Project documentation
+# RealEstateHousePricePredictionUsingML_Project.ipynb: Jupyter Notebook with detailed analysis
+# final_dataset.csv: Preprocessed dataset
+# main.py: Main script for preprocessing, training, and prediction
 
 ---
 
