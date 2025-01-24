@@ -20,26 +20,32 @@ This repository contains the implementation of a machine learning project to pre
 - **Web Framework:** Flask
 - **Deployment:** GitHub
 
+## Dataset
+
+The dataset used is `ParisHousing.csv`, which contains the following columns:
+- **Area**
+- **Number of Rooms**
+- **Number of Bathrooms**
+- **Price**
+- **Number of Floors**
+- **Has Pool**, etc.
+
+An additional processed dataset, `final_dataset.csv`, is generated during the preprocessing stage.
+
+---
+
 ## Project Structure
 
-```plaintext
-├── data
-│   ├── train.csv
-│   ├── test.csv
-├── models
-│   ├── linear_regression.pkl
-│   ├── decision_tree.pkl
-├── app
-│   ├── templates
-│   │   └── index.html
-│   └── app.py
-├── notebooks
-│   ├── EDA.ipynb
-│   └── Model_Training.ipynb
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
+├── .gitignore                # Files to ignore in the Git repository
+├── LICENSE                   # Project license
+├── LinearRegressionModel.pkl # Serialized machine learning model
+├── ParisHousing.csv          # Raw dataset
+├── README.md                 # Project documentation
+├── RealEstateHousePricePredictionUsingML_Project.ipynb # Jupyter Notebook with detailed analysis
+├── final_dataset.csv         # Preprocessed dataset
+├── main.py                   # Main script for preprocessing, training, and prediction
+
+
 
 ## How to Run
 
@@ -78,6 +84,9 @@ The application was deployed on GitHub to ensure version control and accessibili
 ## Future Improvements
 - Integrate advanced models such as Random Forest and Desicion Trees.
 - Add more features to the dataset for better predictions.
+
+## Results
+The model achieves a satisfactory accuracy based on metrics such as Mean Squared Error (MSE) and R² score. The detailed evaluation can be found in the Jupyter Notebook.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
